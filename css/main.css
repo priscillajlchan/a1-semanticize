@@ -26,7 +26,7 @@ h3 {
 	font-size:18px; line-height:24px;
 }
 
-.caption {
+figcaption {
 	font-size: 11px;
 	color: #666;
 }
@@ -64,7 +64,7 @@ form label {font-weight:bold;}
 	border:1px solid #CCC;
 }
 
-#header {
+header {
 	float:left;
 	width:960px;
 	height:140px;
@@ -77,7 +77,7 @@ form label {font-weight:bold;}
 	text-indent:-9999px;
 }
 
-#header h1 {
+header h1 {
 	position:absolute;
 	top:70px; left:100px;
 	z-index:2;	
@@ -86,9 +86,9 @@ form label {font-weight:bold;}
 
 /* Top Navigation 
 -------------------------------*/
-#navcontainer {float:left; width:960px; }
+nav {float:left; width:960px; }
 
-#navcontainer ul {
+nav ul {
 	padding-left: 0;
 	margin-left: 0;
 	background-color: #CCC;
@@ -97,9 +97,9 @@ form label {font-weight:bold;}
 	width: 100%;
 }
 
-#navcontainer ul li { display: inline; }
+nav ul li { display: inline; }
 
-#navcontainer ul li a {
+nav ul li a {
 	padding: 8px 30px;
 	background-color: #CCC;
 	color: #333;
@@ -109,7 +109,7 @@ form label {font-weight:bold;}
 	text-transform:uppercase;
 }
 
-#navcontainer ul li a:hover, #navcontainer ul li a.active {
+nav ul li a:hover, #navcontainer ul li a.active {
 	background-color: #333;
 	color: #fff;
 }
@@ -117,7 +117,7 @@ form label {font-weight:bold;}
 
 /* Main Body area 
 -------------------------------*/
-#main {
+section {
 	float:left;
 	width:900px; 
 	margin:15px;
@@ -125,11 +125,11 @@ form label {font-weight:bold;}
 	
 }
 
-#content {
+article {
 	float:left;
 	width:600px;
 }
-#sidebar {
+aside {
 	float:right;
 	width:250px;
 	padding: 20px 10px; margin-top:20px	;
@@ -143,7 +143,7 @@ form label {font-weight:bold;}
 /* Footer and social media links
 -------------------------------*/
 
-#footer {
+footer {
 	clear:both;
 	width:900px;
 	text-align:center;
