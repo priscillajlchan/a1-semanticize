@@ -5,14 +5,32 @@ body {
 }
 
 h1 {
-	font:34px georgia, "Times New Roman", Times, serif;
+	font:34px georgia, "AmbleRegular", Times, serif;
 	color:#333;
 }
 
 h2 {
-	font:32px georgia, "Times New Roman", Times, serif;
+	font-family: "AmbleRegular", Times, serif;
+    font-size:40px;
 	color:#333;
+
+
 }
+
+@font-face {
+    font-family: 'AmbleRegular';
+    src: url('type/amble-regular.eot');
+    src: url('type/amble-regular.eot') format('embedded-opentype'),
+         url('type/amble-regular.woff') format('woff'),
+         url('type/amble-regular.ttf') format('truetype'),
+         url('type/amble-regular.svg#AmbleRegular') format('svg');
+}
+
+
+
+
+
+
 
 h3 {
 	font:normal 22px georgia, "Times New Roman", Times, serif;
@@ -83,6 +101,9 @@ header h1 {
 	z-index:2;	
 	
 }
+
+
+
 
 /* Top Navigation 
 -------------------------------*/
